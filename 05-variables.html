@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Variables</title>
+</head>
+
+<body>
+  <script>
+    let variable1 = 3; /* let creates a new 
+    variable, it is reserved word */
+  
+    /* variable1 is the name of variable.
+    & we are assigning 3 as a value to the variable1*/
+
+
+    console.log(variable1); 
+    //displaying value of variable1 in console.
+
+    let calculation = 2 + 2;
+    console.log(calculation);
+
+    console.log(calculation + 2);
+
+    let Result = calculation + 2;
+    console.log(Result);
+
+    let message = 'hello';
+    console.log(message);
+
+
+    variable1 = 5;
+    /* reassigning a new value to the variable1
+     can't use let because it will create new 
+     variable again.*/
+   
+     console.log(variable1); 
+     // displaying it on the console.
+
+    variable1 = variable1 + 1; 
+    //incrementing variable by 1.
+    console.log(variable1); 
+    //display onto the console.
+    
+
+    let variable2 = 3; 
+    /*cannot change the value later because 
+    its a letant variable. code is safer & 
+    easier to understand. */
+
+    /* variable2 = 5; it will throw an error 
+    in the console.*/
+
+    var variable = 3;
+    /* creates variable just like 'let' and var 
+    is the original way to create variables in 
+    JavaScript,but it has issues. thats why 
+    we dont use it. */
+
+    console.log(typeof 3); 
+    /* typeof tells us 3 is a variable. */
+    console.log(typeof message);
+    /* this tells us that the value inside
+    the message variable is a string*/
+  </script>
+</body>
+
+</html>
