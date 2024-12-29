@@ -57,7 +57,6 @@
     console.log(' you are not eligible for the driving license as well as for learners license.');
 
 
-
     // boolean conditions with hard coded variables 
     const age = 12;
 
@@ -106,27 +105,54 @@
   */
 
 
-const result = 0 ? 'truthy' : 'falsy'
-console.log(result);
+  true ? 'truthy' : 'falsy' 
+  /* question mark as the if branch 
+  and the : colon as the else branch. kinda like
+  shorcut of if statement. */
 
-const result2 = true ? 'truthy' : 'falsy'
-console.log(result2); 
+  const result1 = true ? 'truthy' : 'falsy';
+  console.log(result1);
+  /*so, the value after the ? mark gets saved 
+  in the variable result */
+
+  /* we can use truthy and falsy values
+  instead of just true and false.
+
+  here's the code :-  */
+
+  const result2 = 0 ? 'truthy' : 'falsy';
+  console.log(result2);
+  /* if we change the first value to 0 then falsy will
+  be  saved in the result variable. */
+
+   /* Guard Operators */
+  false && console.log('Hello');
+  /*does not run the code on the right. 
+  because we're using AND operator.
+  this is called Short Circuit Evaluation. */
+
+    // examples
+  const message = false && 'hello';
+  console.log(message);
+  //cannot show the string hello because we assigned falsy.
+ 1
+  const message1 = 5 && 'Hello';
+  console.log(message);
+  //shows the message because now we've assigned truty.
 
 
+  // Default Operator
+  const currency = 'INR' || 'USD';
+  console.log(currency);
+  /* runs the right side code, because OR operator stops
+  when it knows that both the values are equal and runs the
+  the beginning code, which is present on
+  the right i.e. 'INR'. */
 
-false && console.log('Hello');
-
-
-const message = false && 'hello';
-console.log(message);
-//cannot show the string hello because we assigned falsy.
-
-const message1 = 5 && 'Hello';
-console.log(message);
-//shows the message because now we assigned truty.
-
-
-</script>
-</body>
-
-</html>
+  const currency1 = undefined || 'USD';
+  console.log(currency1); 
+  /* run the code on the left. this is called default
+    operator */
+  </script>
+  </body>
+  </html>
