@@ -15,4 +15,13 @@ I'm Learning the JavaScript Programming Language and uploading my learning journ
 etc
 
 its how we access these websites on our Computer.
+
+There are actually 3 Technologies used to Create A Website,
+each of these has a specific purpose.
+- `HTML` Used to Create the Content of the Website.
+- `CSS` Used to Change the Appearance of the Website.
+- `JavaScript` Used for making the Website "Interactive" for the Users.
+
+
+
     
