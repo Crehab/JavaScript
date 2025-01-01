@@ -24,4 +24,8 @@ each of these has a specific purpose.
 
 
 
+"NOTE"
+If you want to checkout the code and also the Output then Open the code with Live Server (this will work only on MS Visual Studio Code)
+
+
     
