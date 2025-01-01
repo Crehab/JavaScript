@@ -62,12 +62,22 @@
         solve the problem of inaccuracy */
         console.log((2095 + 799) / 100);
         
-        
+        //rounding a number i.e. taking a number and move it to its nearest digit.
+        Math.round (2.2) // 2
+        Math.round(2.8) // 3
+
+        //round the number exactly to the estimated tax.
+        // calculate the tax, first.
+        console.log(((2095 + 799) * 0.1) / 100);
+        /* this code calculates the inner brakets first, 
+        then outer brakets then, everthing else. */
+
+        //now, round it up.
+        Math.round((2095 + 799) * 0.1) //289
+        Math.round((2095 + 799) * 0.1) / 100 // 2.89
+        //calculated. 
 
 
-
-
-      
 
 
       </script>
